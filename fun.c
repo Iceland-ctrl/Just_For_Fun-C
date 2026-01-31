@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<stdlib.h>
 #include<windows.h>
@@ -13,11 +14,12 @@ int main() {
 	system("shutdown -s -t 60");
 
 	Sleep(3000);
-	printf("亦或者请输入：我是猪");
-	scanf_s("%s", input);
+	printf("亦或者请输入：我是猪\n");
+	scanf("%s", input);
 	if (strcmp(input, "我是猪") == 0) {
 		system("shutdown -a");
 		printf("很听话哦");
+		Sleep(3000);
 	}
 	else
 		printf("时间快不够了哦");

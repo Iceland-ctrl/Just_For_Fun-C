@@ -1,10 +1,2 @@
 ﻿  fun.c
-F:\test Program for c\develop\fun\fun.c(17,10): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
-      F:\test Program for c\develop\fun\fun.c(17,10):
-      占位符和其参数预计 2 可变参数，但提供的却是 1 参数
-      F:\test Program for c\develop\fun\fun.c(17,10):
-      缺失的可变参数 2 为格式字符串“%s”所需
-      F:\test Program for c\develop\fun\fun.c(17,10):
-      此参数用作缓冲区大小
-  
   fun.vcxproj -> F:\test Program for c\develop\fun\x64\Debug\fun.exe
